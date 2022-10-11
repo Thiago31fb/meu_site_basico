@@ -31,5 +31,41 @@ a {
 .headline{
     font-size: 2.2rem;
     text-transform: uppercase;
-
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
 }
+ 
+/* Navbar  */
+#nav_bar{
+    width: 100%;
+    background: #111;
+    color: #eee;
+    height: 80px;
+}
+
+.nav_bar_container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.nav_bar_itens{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav_bar_itens li {
+    padding: 10px;
+}
+
+/* Showcase */
